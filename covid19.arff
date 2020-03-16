@@ -1,0 +1,10 @@
+   @relation covid
+@attribute country string
+@attribute dateOfUpdate DATE "yyyy-MM-dd HH:mm:ss"
+@attribute totalcases NUMERIC
+@attribute deathCases NUMERIC
+@attribute totalNumberOfTest NUMERIC
+
+    @data
+    POLAND,"2020-03-16 21:07:12",177,4,6500
+ITALY,"2020-03-16 21:07:12",27500,2100,100000
